@@ -112,6 +112,12 @@
                             <constraint firstItem="dbu-Fa-mOY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xsp-ta-55L"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="XeO-XZ-fg5" id="fIm-hK-WtR"/>
+                        <outlet property="leftScoreLabel" destination="lmu-Sa-j0y" id="h0L-wD-4Nw"/>
+                        <outlet property="rightImageView" destination="xeh-eD-OcT" id="0u6-9h-EqT"/>
+                        <outlet property="rightScoreLabel" destination="AEb-zU-CQF" id="agy-5p-NgP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
